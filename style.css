@@ -1,0 +1,264 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;  
+}
+
+body {
+    background-color: #000000;     
+}
+
+img {
+    display: block;
+    margin: auto;
+    max-width: 100%;
+    height: auto;
+}
+
+a {
+    text-decoration: none;
+    color: #41AEF5;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.inicio {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    margin-top: -100px;
+
+}
+
+h1 {
+    font-size: 20px;
+    color: #1847A4;
+}
+
+#arrow {
+    font-size: 50px;    
+    color: #41AEF5;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    text-align: center;
+    cursor: pointer;
+}
+
+#animation {
+    transition: 300ms;
+}
+
+.rotate {
+    transform: rotate(180deg);
+    transition: 300ms;
+}
+
+span.required {
+    margin-left: 0;
+    color: red;
+}
+
+form {
+    margin-top: 100px;
+    background-color: #ffffff;
+    display: grid;
+    font-weight: 300;
+    font-size: 15px;
+    margin-left: 15%;
+    margin-right: 15%;
+    padding: 50px;
+    border-radius: 10px;
+}
+
+fieldset {
+    border-style: none;
+}
+
+.linhaUm {
+    display: flex;
+    justify-content: left;
+}
+
+.linhaUm div {
+    margin: 5px;
+}
+
+.linhaDois {
+    display: flex;
+    justify-content: left;
+}
+
+.linhaDois div {
+    margin: 5px;
+}
+
+.linhaTres {
+    display: flex;
+    justify-content: left;
+}
+
+.linhaTres div {
+    margin: 5px;
+}
+
+.linhaQuatro {
+    display: flex;
+    justify-content: left;
+}
+
+.linhaQuatro div {
+    margin: 5px;
+}
+
+.linhaCinco {
+    display: flex;
+    justify-content: left;
+}
+
+.linhaCinco div {
+    margin: 5px;
+}
+
+.linhaSeis {
+    display: flex;
+    justify-content: left;
+}
+
+.linhaSeis div {
+    margin: 5px;
+}
+
+button {
+    background-color: #41AEF5;
+    border: none;
+    border-radius: 20px;
+    font: inherit;
+    line-height: 1;
+    margin: 0.5em;
+    padding: 1em 2em;
+    color: var(--color);
+    transition: 0.25s;
+}
+
+.fill {
+    --color: #000000;
+    --hover: #5CDADE;
+}
+.fill:hover,
+.fill:focus {
+  box-shadow: inset 0 0 0 2em var(--hover);
+}
+
+footer {
+    color: #ffffff;
+    display: flex;
+    padding: 10px;
+    justify-content: space-evenly;
+    font-size: 12px;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    text-align: center;
+    justify-content: space-evenly;
+}
+
+ul li{
+    padding: 5px;
+}
+
+@media only screen and (max-width: 480px) and (orientation: portrait) {
+    img {
+        max-width: 370px;
+    }
+
+    .inicio {
+        display: none;
+    }    
+
+    h1 {
+        font-size: 18px;
+    }
+
+    form {
+        margin-top: 10px;
+        display: flex;
+        font-size: 12px;
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 370px;
+        padding: 20px;
+        border-radius: 10px;
+    }
+    
+    fieldset {
+        border-style: none;
+        max-width: 360px;
+    }
+   
+    .linhaUm {
+        display: inline-block;
+        justify-content: left;
+    }
+    
+    .linhaUm div {
+        margin: 5px;
+    }
+    
+    .linhaDois {
+        display: inline-block;
+        justify-content: left;
+    }
+    
+    .linhaDois div {
+        margin: 5px;
+    }
+    
+    .linhaTres {
+        display: inline-block;
+        justify-content: left;
+    }
+    
+    .linhaTres div {
+        margin: 5px;
+    }
+    
+    .linhaQuatro {
+        display: inline-block;
+        justify-content: left;
+    }
+    
+    .linhaQuatro div {
+        margin: 5px;
+    }
+    
+    .linhaCinco {
+        display: inline-block;
+        justify-content: left;
+    }
+    
+    .linhaCinco div {
+        margin: 5px;
+    }
+
+    .linhaSeis {
+        display: inline-block;
+        justify-content: left;
+    }
+    
+    .linhaSeis div {
+        margin: 5px;
+    }
+
+    footer {
+        color: #ffffff;
+        display: flex;
+        padding: 15px;
+        justify-content: space-evenly;
+        font-size: 10px;
+    }
+}
