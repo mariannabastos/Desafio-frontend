@@ -117,7 +117,7 @@ const formularioDb = () => {
 }
 
 const criarCandidato = async (candidato) => {
-    const usuario = await fetch('http://localhost:3000/registro', {
+    const usuario = await fetch('https://jobsnet-gamaxp.herokuapp.com/registro', {
             method: "POST",
             headers: {
                 'Accept': 'application/json',
