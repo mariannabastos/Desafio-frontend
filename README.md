@@ -18,3 +18,4 @@ Cadastro de candidatos com os campos: Id, Nome, Data Nascimento, Endereço, Tele
 - Integração entre a Página de Formulário e o Back-end;
 - Disponibilizar uma API Rest com a funcionalidade de cadastro de candidatos armazenando em um banco de dados;
 - Disponibilizar a documentação dos recursos Web Services REST - Uso do Swagger.
+![JobsNET](https://user-images.githubusercontent.com/87217760/133353182-62dbbcf4-1037-47e0-8ade-13dc92a643c8.png)
